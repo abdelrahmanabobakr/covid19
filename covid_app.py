@@ -41,7 +41,7 @@ st.markdown(
 )
 
 # Load model
-MODEL_PATH = "D:\\New folder\\mony\\AI projects\\ml\\covid_19_model.h5"
+MODEL_PATH = "D:\New folder\mony\AI projects\ml\covid_19_model.h5"
 try:
     model = load_model(MODEL_PATH)
     st.success("Model loaded successfully!")
