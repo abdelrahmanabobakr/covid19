@@ -17,7 +17,7 @@ st.markdown(
 )
 
 # Load model
-MODEL_PATH = r"D:\\New folder\\mony\\AI projects\\ml\\covid_19_model.h5"
+MODEL_PATH = "covid_19_model.h5"
 
 if os.path.exists(MODEL_PATH):
     st.success("Model file found!")
